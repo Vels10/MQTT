@@ -19,5 +19,5 @@ if __name__ == "__main__":
     client.on_subscribe = on_subscribe    
     client.on_message = on_message    
     client.connect(host="localhost")
-    client.username_pw_set("velkumaranap", "velkumaranap")    
+    client.username_pw_set("velkumaranap", "velkumaranap")
     client.loop_forever()
